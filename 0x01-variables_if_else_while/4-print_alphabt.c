@@ -11,7 +11,7 @@ int main(void)
 	char sa, e, q;
                      
         e='e';
-	q='q'
+	q='q';
 
 	for (sa = 'a' ; sa <= 'z' ; sa++)
 	{

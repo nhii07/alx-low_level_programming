@@ -1,23 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - prints the alphabet in lowercase,
  * followed by a new line, except q and e
  * Return: Aways 0 (Sucess)
  */
+
 int main(void)
+
 {
-	char sa, e, q;
+
+	char sn, e, q;
                      
-        e='e';
+	e='e';
 	q='q';
 
-
-	for (sa = 'a' ; sa <= 'z' ; sa++)
+	for (sn = 'a' ; sn <= 'z' ; sn++)
 	{
-	if (sa != e && sa != q)	
-	putchar(sa);
-			
+	if (sn != e && sn != q)
+	putchar(sn);
 	}
 	putchar('\n');
 	return (0);

@@ -12,13 +12,12 @@ int main(void)
         e='e';
 	q='q';
 
+
 	for (sa = 'a' ; sa <= 'z' ; sa++)
 	{
-	if (sa != e && sa != q)
-		
+	if (sa != e && sa != q)	
 	putchar(sa);
-		
-		
+			
 	}
 	putchar('\n');
 	return (0);

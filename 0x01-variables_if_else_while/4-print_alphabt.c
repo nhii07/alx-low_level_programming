@@ -7,21 +7,19 @@
  * followed by a new line, except q and e
  * Return: Aways 0 (Sucess)
  */
-
 int main(void)
-
 {
+	char c;
 
-	char sn, e, q;
-                     
-	e='e';
-	q='q';
-
-	for (sn = 'a' ; sn <= 'z' ; sn++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-	if (sn != e && sn != q)
-	putchar(sn);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }

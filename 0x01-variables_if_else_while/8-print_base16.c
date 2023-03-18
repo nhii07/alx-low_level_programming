@@ -12,7 +12,7 @@ int main(void)
 
 	for (a = 8; a < 18; a++)
 	{
-		putchar(n);
+		putchar(a);
 	}
 	for (sa = 'a'; sa <= 'f'; sa++)
 	{
